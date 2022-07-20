@@ -11,7 +11,7 @@ let computerChoice
 
 const handleClick = (e) => {
     userChoice = e.target.id
-    userChoiceDisplay.innerHTML = 'User Choice: ' + userChoice
+    userChoiceDisplay.innerHTML = 'My Choice: ' + userChoice
     generateComputerChoice()
     getResult()
 }
@@ -19,7 +19,7 @@ const handleClick = (e) => {
 const generateComputerChoice = () => {
     const randomChoice = choices[Math.floor(Math.random() * choices.length)]
     computerChoice = randomChoice
-    computerChoiceDisplay.innerHTML = 'Computer Choice: ' + randomChoice
+    computerChoiceDisplay.innerHTML = 'Your Opponent Chooses: ' + randomChoice
 }
 
 for (let i = 0; i < choices.length; i++){
