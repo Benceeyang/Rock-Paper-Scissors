@@ -10,6 +10,14 @@ h1 {
 }
 
 button {
+    margin-top: 20px; 
+    margin-left: 500px;
+    margin-right:auto;
+}
+/* #rock {
+    background-image:'/images/rock.jpg';
+    background-position: center;
+    background-repeat: no-repeat;
     margin-left:100px;
     padding: 50px;
-}
+} */
