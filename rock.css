@@ -10,14 +10,25 @@ h1 {
 }
 
 button {
-    margin-top: 20px; 
-    margin-left: 500px;
+    margin-left: 280px;
     margin-right:auto;
+    padding: 30px;
 }
-/* #rock {
-    background-image:'/images/rock.jpg';
+
+#rock {
+    background-image: url('./images/rock.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    margin-left:100px;
-    padding: 50px;
-} */
+} 
+
+#paper {
+    background-image:url('./images/paper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#scissors {
+    background-image:url('./images/scissors.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
